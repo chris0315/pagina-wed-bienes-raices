@@ -1,13 +1,12 @@
-/*let menu = document.getElementsByClassName("mobile-menu")
-let mobileMenu = () => {
-    console.log("bien")
-    let nav = document.getElementById("navegador")
-    let bt = nav.style.display
-    if (bt == "none") {
-        bt.style.display = "block"
+let menu = document.querySelector(".mobile-menu")
+let nav = document.querySelector("#navegacion")
+menu.addEventListener("click", mobileMenu)
+
+function mobileMenu() {
+    if (nav.classList.contains("nav")) {
+        nav.classList.remove("nav")
     } else {
-        bt.style.display = "none"
+        nav.classList.add("nav")
     }
 
 }
-menu[0].addEventListener("click", () => mobileMenu())*/

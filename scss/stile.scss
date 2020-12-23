@@ -164,8 +164,7 @@ p {
 .navegador a {
     color: white;
     text-decoration: none;
-    margin: 1.5rem;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     display: block;
 }
 
@@ -197,17 +196,12 @@ p {
     }
 }
 
-
-/* .navegador:target {
+.navegador:target {
     display: block;
-} */
+}
 
 .navegador {
     display: none;
-}
-
-.nav {
-    display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -228,11 +222,6 @@ p {
 
 .icono {
     text-align: center;
-    margin-bottom: 3rem;
-}
-
-.icono:first-child {
-    margin-top: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -243,17 +232,10 @@ p {
 
 .icono h3 {
     text-transform: uppercase;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 
 /*anuncio*/
-
-.section h2 {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
 
 @media screen and (min-width: 768px) {
     .contenedor-anuncio {
